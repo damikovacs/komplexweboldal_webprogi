@@ -1,3 +1,37 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+.navbar{
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+.nav-link {
+    display: flex;
+    gap: 10px;
+}
+.nav-link p {
+    margin: 0;
+}
+.nav-link a:link {
+    color: white;
+}
+header {
+    background-image: url(img/pizzakep.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.tortenet {
+    background-color: gray;
+    color: white;
+}
+
