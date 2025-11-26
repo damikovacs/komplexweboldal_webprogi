@@ -19,9 +19,21 @@ body {
 .nav-link p {
     margin: 0;
 }
+
 .nav-link a:link {
     color: white;
+    text-decoration: none;
 }
+.nav-link a:visited {
+    color: white;
+}
+.nav-link a:hover {
+    color: black;
+}
+.nav-link a:active {
+    color: white;
+}
+
 header {
     background-image: url(img/pizzakep.jpg);
     background-size: cover;
@@ -29,13 +41,13 @@ header {
     background-position: center;
 }
 
-/* PIEDINA történet */
+/* PIEDINA történet rész */
 .tortenet {
     background-color: #2b2b2b;
     color: white;
     display: flex;
     gap: 20px;
-    padding: 30px 40px;
+    padding: 90px 140px;
 }
 
 .tortenet-bal-oldal {
@@ -69,5 +81,102 @@ header {
 }
 
 .leiras {
-    color: gray;
+    color: darkgray;
+}
+
+/* Menü rész */
+
+.menu-resz {
+    background-color: black; 
+    padding: 80px 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-belso {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-cim {
+    font-size: 26px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.menu-alcim {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.menu-content {
+    color: #d0d0d0;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.menu-gombok {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-btn {
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.menu-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+/* Reszponzivitas */
+
+@media(max-width: 900px) {
+    .tortenet {
+        flex-direction: column;
+        padding: 40px 20px;
+        padding: 40px 20px;
+    }
+
+    .tortenet-bal-oldal,
+    .tortenet-jobb-oldal {
+        width: 100%;
+    }
+
+    .alcim {
+        margin-left: 0; 
+        text-align: left;
+    }
+}
+
+@media(max-width: 600px) {
+    .menu-gombok {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu-btn {
+        display: block;
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+}
+@media(max-width: 768px) {
+    header {
+        height: 300px;
+    }
 }
