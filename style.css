@@ -315,3 +315,101 @@ header {
         display: block;
     }
 }
+
+/* MOBIL */
+@media(max-width: 600px) {
+
+
+    header {
+        height: 300px;
+        background-position: center;
+    }
+
+    .nav-items h1 {
+        font-size: 18px;
+    }
+
+
+    .tortenet {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .tortenet-bal-oldal, 
+    .tortenet-jobb-oldal {
+        width: 100%;
+    }
+
+    .alcim {
+        margin-left: 0;
+    }
+
+    .tortenet-jobb-oldal p {
+        font-size: 15px;
+    }
+
+
+    .menu-resz {
+        padding: 60px 20px;
+    }
+
+    .menu-gombok {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu-btn {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 12px 0;
+    }
+
+
+    .grid {
+        grid-template-columns: 1fr !important;
+        grid-auto-rows: auto;
+        gap: 25px;
+    }
+
+    .item.big,
+    .item.tall,
+    .item.eloetel {
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+        margin: 0 !important;
+    }
+
+    .item img {
+        height: 260px;
+    }
+
+    .item span {
+        bottom: 10px;
+        font-size: 14px;
+    }
+
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer-column p {
+        border: none;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
