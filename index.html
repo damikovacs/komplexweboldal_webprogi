@@ -12,6 +12,13 @@
             <div class="navbar">
                 <div class="nav-items">
                     <h1>PIZZÉRIA</h1>
+        
+                    <!-- HAMBURGER ICON -->
+                    <div class="hamburger" id="hamburger">
+                        &#9776;
+                    </div>
+        
+                    <!-- DESKTOP MENU -->
                     <div class="nav-link">
                         <p><a href="#">KEZDŐLAP</a>/</p>
                         <p><a href="#">MENÜ</a>/</p>
@@ -19,6 +26,14 @@
                         <p><a href="#">KAPCSOLAT</a>/</p>
                     </div>
                 </div>
+            </div>
+        
+            <!-- MOBILE MENU -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#">KEZDŐLAP</a>
+                <a href="#">MENÜ</a>
+                <a href="#">RÓLUNK</a>
+                <a href="#">KAPCSOLAT</a>
             </div>
         </header>
             <div class="tortenet">
@@ -106,5 +121,13 @@
             </footer>
             
     </div>
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const mobileMenu = document.getElementById("mobileMenu");
+    
+        hamburger.addEventListener("click", () => {
+            mobileMenu.classList.toggle("open");
+        });
+    </script>
 </body>
 </html>
