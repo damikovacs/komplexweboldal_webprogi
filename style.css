@@ -54,6 +54,7 @@ header {
 
 .tortenet-bal-oldal {
     width: 25%;
+    text-align: left;
 }
 
 .tortenet-bal-oldal h2 {
@@ -63,8 +64,6 @@ header {
 .alcim {
     font-size: 14px;
     letter-spacing: 2px;
-    margin-top: 8px;
-    margin-left: 120px;
     color:dimgray;
 }
 
@@ -264,7 +263,6 @@ header {
 
 
 
-
 /* Reszponzivitas */
 
 .hamburger {
@@ -306,7 +304,7 @@ header {
     border-bottom: 1px solid #333;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1024px) {
     .nav-link {
         display: none;
     }
