@@ -1,0 +1,8 @@
+menu szelos legyen
+PIADINA igazitas 2 oszlop bal jobbra igazitva jobb oldali balra igazitva
+PIADINA PIZZERIA ROSSZ IGAZITAS
+MENU meretezes
+fekvo kepek legyenej ne allo
+footer bal oldali oszlop jobbra igazitva
+probald ki fenseges eteleink szelesebbre
+lablec kicsivel nagyobb betu meret

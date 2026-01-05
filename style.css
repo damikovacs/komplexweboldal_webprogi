@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 60px;
     color: white;
 }
 .nav-link {
@@ -54,7 +54,7 @@ header {
 
 .tortenet-bal-oldal {
     width: 25%;
-    text-align: left;
+    text-align: right;
 }
 
 .tortenet-bal-oldal h2 {
@@ -69,6 +69,7 @@ header {
 
 .tortenet-jobb-oldal {
     width: 65%;
+    text-align: left;
 }
 
 .tortenet-jobb-oldal p {
