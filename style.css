@@ -49,7 +49,7 @@ header {
     color: white;
     display: flex;
     gap: 20px;
-    padding: 90px 140px;
+    padding: 70px 480px;
 }
 
 .tortenet-bal-oldal {
@@ -58,11 +58,11 @@ header {
 }
 
 .tortenet-bal-oldal h2 {
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .alcim {
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 2px;
     color:dimgray;
 }
@@ -73,12 +73,12 @@ header {
 }
 
 .tortenet-jobb-oldal p {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
 .foglalas {
-    font-size: 18px;
+    font-size: 28px;
     margin-top: 25px;
 }
 
@@ -101,13 +101,13 @@ header {
 }
 
 .menu-cim {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 5px;
     letter-spacing: 1px;
 }
 
 .menu-alcim {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 30px;
     color: #ccc;
 }
@@ -116,6 +116,7 @@ header {
     color: #d0d0d0;
     line-height: 1.6;
     margin-bottom: 40px;
+    font-size: 20px;
 }
 
 .menu-gombok {
@@ -129,7 +130,7 @@ header {
     padding: 10px 40px;
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
     transition: 0.2s;
 }
 
@@ -145,67 +146,64 @@ header {
     color: #eee;
     background-color: #2b2b2b;
 }
-
+ 
 .specialis h2 {
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 30px;
     margin-bottom: 10px;
 }
-
+ 
 .specialis p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 30px;
     color: gray;
 }
-
+ 
 .grid {
-    width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 300px;
-    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    gap: 30px;
 }
-
+ 
 .item {
     position: relative;
     overflow: hidden;
-    border-radius: 6px;
 }
-
+ 
 .item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: .3s ease;
 }
-
+ 
 .item span {
     position: absolute;
-    bottom: 15px; 
-    left: 50%; 
+    bottom: 1px;
+    left: 50%;
     transform: translateX(-50%);
-    color: #fff;
+    color:white;
     padding: 6px 12px;
     border-radius: 4px;
-    white-space: nowrap;
 }
-
+ 
 /* Nagy bal oldali pizza */
 .item.big {
     grid-column: span 2;
     grid-row: span 2;
 }
-
+ 
 /* Jobb oldali magas steak */
 .item.tall {
     grid-row: span 2;
     margin-bottom: -60px;
 }
-
+ 
 .item.eloetel {
     margin-top: 60px;
+    margin-bottom: -30px;
 }
 
 
@@ -213,13 +211,18 @@ header {
 .footer {
     background-color: #181818;
     color: #ccc;
-    padding: 60px 40px;
+    padding: 60px 470px;
     font-family: Arial, sans-serif;
+}
+
+#szeretettel {
+    text-align: end;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -231,14 +234,16 @@ header {
 
 .footer-column h3 {
     color: white;
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 20px;
+    margin: 0 auto;
 }
 
 .footer-column p {
     border-bottom: 1px solid #333;
     padding: 8px 0;
     margin: 0;
+    font-size: 20px;
 }
 .footer-column p:last-child {
     border-bottom: none;
@@ -249,6 +254,7 @@ header {
     text-decoration: underline;
     margin-top: 10px;
     display: inline-block;
+    font-size: 30px;
 }
 
 .footer-bottom {
@@ -256,8 +262,8 @@ header {
     margin-top: 60px;
     padding-top: 20px;
     text-align: center;
-    font-size: 13px;
-    color: #777;
+    font-size: 15px;
+    color: gray;
 }
 
 
